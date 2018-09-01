@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+html {
+  font-size: 100%;
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  background-color: #EEEEEE;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#root {
+  height: inherit;
+}
+
+#root > div {
+  height: inherit;
+}
+
+#root > div > div {
+  height: inherit;
+}
+
+.main-app-container {
+  position: relative;
+}
+
+.opponent_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35%;
+}
+
+.opponent_score_container {
+  color: black;
+  font-family: Consolas, Menlo, Monaco, monospace;
+  font-weight: bold;
+  font-size: 6vh;
+  opacity: 0.7;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.start_button_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+}
+
+.player_score_container {
+  color: black;
+  font-family: Consolas, Menlo, Monaco, monospace;
+  font-weight: bold;
+  font-size: 6vh;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5%;
+}
+
+.player_container {
+  height: 35%;
+}
+
+.remaining-card-container {
+  position: absolute;
+}

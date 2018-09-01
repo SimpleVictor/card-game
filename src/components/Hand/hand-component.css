@@ -1,0 +1,17 @@
+.hand-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.hand-container-wrapper {
+  transform: scale(0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hand-container > div > .card-container {
+  position: absolute;
+}
