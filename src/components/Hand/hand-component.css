@@ -12,6 +12,12 @@
   justify-content: center;
 }
 
+@media only screen and (max-height: 700px) {
+  .hand-container-wrapper {
+    transform: scale(0.4);
+  }
+} 
+
 .hand-container > div > .card-container {
   position: absolute;
 }
