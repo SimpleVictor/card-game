@@ -20,7 +20,7 @@ export const startGame = () => dispatch => {
       fetch(url)
         .then((r2) => r2.json(), (err) => errorHandler(dispatch, err))
         .then(({ cards }) => {
-          setTimeout(() => {
+          setTimeout(() => { /* Timeout is used to show off loading animation, please excuse  */
             TurnOffLoader()(dispatch);
             dispatch({ type: CARDS_RETRIEVED, payload: cards });
             dispatch({type: UPDATE_PLAYERS_HAND, payload: { player: [], opponent: [] }});
